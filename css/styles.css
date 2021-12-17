@@ -1,0 +1,165 @@
+hr
+{
+    border-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    height: 2px;
+    width: 3%;
+    margin: 100px auto ; /* It keeps top and bottom margin as 100px and left and right as auto */
+}
+.pro
+{
+    text-decoration: underline; /* makes text underline */
+}
+
+p
+{
+    line-height: 2;
+}
+.intro
+{
+    width: 30%; /* We don't get a long singleline of text this way . After keeping width 30% line will go towards left, so below code keeps it centered */
+    margin: auto; /* keeps text in middle */
+}
+
+.contact-message
+{
+    margin: 40px auto 60px;
+
+}
+
+body
+{
+    color: #40514E; /* Body text color is a bit off black now */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    font-size: 200%;
+}
+h1
+{
+
+    font-size: 5.625rem; 
+    margin: 50 auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 81.25%;
+    color: #11999E;
+}
+.footer-link
+{
+    color: #11999E;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.code-img
+{
+    width: 25%;
+    float: left; /* it keeps image on left and the text on right,wrapped around the image */
+    margin-right: 30px; /* it keeps a 30px gap between image and wrapped image */ 
+}
+.food-img
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.coding-info
+{
+    clear: left; /* It un-wraps the text from around the image on its left */ /* clear is like anti-float */
+}
+.food-info
+{
+    clear: right;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+a
+{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif; /* font of hyperlink text */
+    margin: 10px 20px; /* margin between hyperlink texts */
+    text-decoration: none; /* removing any decortion like underline from hyperlink texts */
+}
+a:hover
+{
+    color: #EAF6F6; /* text colour changes to this while we hover */
+}
+.profile
+{
+    margin-top: 30px;
+}
+.top-container
+{
+    background-color: #EAF6F6;
+    position: relative; /* Since our pictures and text are in top-container,there position will be relative to this */
+    padding-top: 100px;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    margin-top: 50px;
+    padding: 50px 0 20px;
+}
+
+.copy-right
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/*  go to:     https://css3buttongenerator.com/    & make a button and paste css link below*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
